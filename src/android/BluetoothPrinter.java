@@ -272,7 +272,7 @@ public class BluetoothPrinter extends CordovaPlugin {
 
 			// tell the user data were sent
 			//Log.d(LOG_TAG, "Data Sent");
-			callbackContext.success("Data Sent");
+			callbackContext.success("Data Sent >>> printText");
 			return true;
 
 		} catch (Exception e) {
